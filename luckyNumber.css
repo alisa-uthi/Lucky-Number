@@ -1,0 +1,51 @@
+/*Alisa Uthikamporn Sec2 6188025*/
+
+body{
+    background-color: #f39422;
+    font-family: monospace;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    background-color: #06053d;
+    color: whitesmoke;
+}
+
+form{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+}
+
+.message label{
+    font-weight: 600; 
+    font-size: 20px;
+    color: #293a80;
+}
+
+.my-button input,button{
+    width: 100px;
+    height: 30px;
+    margin-top: 60px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.box-message{
+    color: #06053d;
+    position: absolute;
+    margin-top: 20px;
+}
+.box-message .phone{
+    font-size: 20px;
+}
+.box-message .phone #phoneList{
+    margin-left: 100px;
+}

@@ -1,0 +1,32 @@
+<!--Alisa Uthikamporn Sec2 6188025-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lucky Number</title>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./luckyNumber.css"> 
+        <script src="./luckyNumber.js"></script>
+    </head>
+    <header>Lucky Phone Number Generator (Work)</header>
+    <body>
+        <form>
+            <div class="message">
+                <label for="disLikeNum">Excluding Numbers</label>
+            </div>
+            <input id="dislikeNum" type="text" placeholder="eg. 2 4 6">
+        </form>
+        <div class="my-button">
+            <button id="random" type="button" onclick="clickAgain()" style="margin-left: 380px;">Random</button>
+            <!--Refresh the whole page-->
+            <input type="button" onclick="history.go(0)" value="Refresh">
+        </div>
+        <div class="box-message">
+            <!--Phone Part-->
+            <div class="phone">
+                <label id="message" type="text" style="margin-left: 40px;"></label> 
+                <div id="phoneList"></div>
+            </div>
+        </div>
+    </body>
+</html>
